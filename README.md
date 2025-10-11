@@ -43,7 +43,6 @@ This project is a simple, elegant, and responsive blog built using modern web te
    ```bash
    https://github.com/Qasimjiho/SIMPLE-BLOG-WEBSITE.git
 
-   cd your-repo-name
 open index.html
 Deploy on GitHub Pages
 
