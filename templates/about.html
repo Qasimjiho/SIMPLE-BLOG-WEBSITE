@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Qasim jiho Blog Speaks</title>
+
+  <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href="{{ url_for('static', filename='blog.min.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('index') }}">Qasim jiho Blog Speaks</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('about') }}">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('add') }}">Add</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('delete') }}">Delete</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{ url_for('static', filename='about_me.jpg') }}')">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>QASIM JIHO</h1>
+            <span class="subheading">D.I.T Course in Mansehra </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p> HELLO MY NAME IS QASIM JIHO AND I AM FROM PAKISTAN AND MY PROVINCE KHYBER PAKHTUNKHWA I AM STAY IN MANSEHRA
+        </p>
+        <p> I AM STUDYING DIPLOMA IN INFORMATION TECHNOLOGY FROM GOVERNMENT POLYTECHNIC COLLEGE MANSEHRA </p>
+        <p> I AM VERY MUCH INTERESTED IN CODING AND PROGRAMMING AND ALSO IN WEB DEVELOPMENT </p>
+        <p> I LOVE TO LEARN NEW TECHNOLOGIES AND NEW PROGRAMMING LANGUAGES </p>
+        <p> I LOVE TO TRAVEL AND EXPLORE NEW PLACES </p>
+        <p> I LOVE TO WATCH MOVIES AND LISTEN MUSIC </p>
+        <p> I LOVE TO EAT BIRYANI AND PIZZA </p>
+        <p> I LOVE TO DRINK COLD DRINKS </p>
+        <p> I LOVE TO SLEEP </p>
+        <p> I LOVE TO CODE </p>
+        <p> I LOVE TO BLOG </p>
+        <p> I LOVE TO SHARE MY KNOWLEDGE WITH OTHERS </p>
+        <p> I LOVE TO HELP OTHERS </p>
+        <p> I LOVE TO MAKE FRIENDS </p>
+        <p> I LOVE TO MAKE THINGS SIMPLE </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p class="copyright text-muted">Copyright &copy; Qasim Jiho 2025</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='blog.min.js') }}"></script>
+  <!-- ADD MY CONTACT INFO -->
+  <a href="https://wwww.facebook.com/muhammad.qasim.412368" target="_blank" class="facebook-float"
+    aria-label="Visit Facebook">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"
+      style="width:48px;height:48px;">
+  </a>
+  <a href="https://wa.me/+923125726553" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+      style="width:48px;height:48px;">
+  </a>
+
+</body>
+
+</html>
