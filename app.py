@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import sqlite3
 
-db_path = 'F:/STUDY/Projects/18BLC1131_DA1/blog_speaks/blog.db'
+db_path = 'db_path = os.path.join(os.path.dirname(__file__), 'blog.db')'
 db_dir = os.path.dirname(db_path)
 if not os.path.exists(db_dir):
     os.makedirs(db_dir)
@@ -106,4 +106,5 @@ def deletepost():
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
+
     app.run(debug=True)
