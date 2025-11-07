@@ -6,7 +6,7 @@ A minimal, clean, and responsive blog website built with Python + Flask (or your
 
 ## 🖥️ Live Demo  
 *(If you deploy it, add your live URL here)*  
-[Your Blog Live Link](https://your-username.github.io/your-repo-name)  
+[Your Blog Live Link](https://blog-website-77k.pages.dev/)  
 
 ---
 
